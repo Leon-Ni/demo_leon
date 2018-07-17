@@ -1,6 +1,3 @@
-package jdk1;
-
-
 import jdk.UserDao;
 
 /**

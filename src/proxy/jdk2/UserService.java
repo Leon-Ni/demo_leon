@@ -1,5 +1,3 @@
-package proxy;
-
 public class UserService implements IUserService {
 
 	public void add() {
