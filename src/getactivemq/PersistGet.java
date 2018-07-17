@@ -1,5 +1,7 @@
 package putmq;
-
+/**
+ * 获取activemq中死信的值
+ */
 import java.io.InputStream;
 import java.io.SequenceInputStream;
 import java.sql.Blob;
