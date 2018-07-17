@@ -1,5 +1,3 @@
-package P1;
-
 /**
  * @author adminstrator
  *
