@@ -1,4 +1,4 @@
-package test1.p3;
+package proxy.cglib;
 
 public class UserDao{
 

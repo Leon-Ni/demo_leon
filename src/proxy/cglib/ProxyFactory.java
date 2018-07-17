@@ -1,19 +1,19 @@
-package test1.p3;
+package proxy.cglib;
 /**
  * cglib代理
  */
-
-import java.lang.reflect.Method;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
 
+import java.lang.reflect.Method;
+
 /**
  * Cglib子类代理工厂
  * 对UserDao在内存中动态构建一个子类对象
  */
-public class ProxyFactory implements MethodInterceptor{
+public class ProxyFactory implements MethodInterceptor {
     //维护目标对象
     private Object target;
 
@@ -24,7 +24,7 @@ public class ProxyFactory implements MethodInterceptor{
     //给目标对象创建一个代理对象
     public Object getProxyInstance(){
         //1.工具类
-        Enhancer en = new Enhancer();
+        EnhancerKey en = new Enhancer();
         //2.设置父类
         en.setSuperclass(target.getClass());
         //3.设置回调函数

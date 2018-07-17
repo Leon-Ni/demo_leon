@@ -1,4 +1,4 @@
-package putmq;
+package getactivemq;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.text.SimpleDateFormat;
 
-import com.tms.config.ConfigManager;
+//import com.tms.config.ConfigManager;
 public class WriteFile {
 	
 	public static void writer(String content,String dir) {
@@ -17,7 +17,8 @@ public class WriteFile {
 		File file = null;
 
 		try {
-			String uploadFilePath = ConfigManager.getInstance().getValue(com.tms.sys.Constants.SYS_REPO_ROOT);
+			//String uploadFilePath = ConfigManager.getInstance().getValue(com.tms.sys.Constants.SYS_REPO_ROOT);
+			String uploadFilePath = "t:/";
 			java.util.Date date = new java.util.Date();
 			SimpleDateFormat formatDj = new SimpleDateFormat("yyyy-MM-dd");
 			String datepath = formatDj.format(date);

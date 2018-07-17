@@ -1,18 +1,15 @@
-package putmq;
+package getactivemq;
 /**
  * 获取activemq中死信的值
  */
 import java.io.InputStream;
 import java.io.SequenceInputStream;
-import java.sql.Blob;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.Enumeration;
-import java.util.List;
 import java.util.Vector;
 import org.junit.Test;
 
@@ -49,7 +46,7 @@ public class PersistGet {
 		// 创建SequenceInputStream对象,将Enumeration对象传入
 		SequenceInputStream sis = new SequenceInputStream(en);
 
-		WriteFile.writer(sis, "activemsg");
+		getactivemq.WriteFile.writer(sis, "activemsg");
 
 	}
 

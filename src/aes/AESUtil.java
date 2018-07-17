@@ -1,8 +1,3 @@
-package test;
-/**
- * 对称算法
- */
-
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
@@ -80,6 +75,9 @@ public class AESUtil {
             byte[] enCodeFormat = secretKey.getEncoded();  
             //5.根据字节数组生成AES密钥  
             SecretKeySpec keySpec = new SecretKeySpec(enCodeFormat, KEY_AES);  
+            keySpec.getEncoded(); 
+            System.out.println("!!!!!!!!!!!!"+keySpec);
+            System.out.println("!!!!!!!!!!!!"+keySpec.getEncoded().toString());
             //6.根据指定算法AES自成密码器  
             Cipher cipher = Cipher.getInstance(KEY_AES);// 创建密码器  
             //7.初始化密码器，第一个参数为加密(Encrypt_mode)或者解密解密(Decrypt_mode)操作，第二个参数为使用的KEY  

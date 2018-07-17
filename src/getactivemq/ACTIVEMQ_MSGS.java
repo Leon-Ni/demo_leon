@@ -1,4 +1,4 @@
-package putmq;
+package getactivemq;
 
 import java.sql.Blob;
 
