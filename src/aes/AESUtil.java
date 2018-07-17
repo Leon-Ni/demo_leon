@@ -1,4 +1,7 @@
 package test;
+/**
+ * 对称算法
+ */
 
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
