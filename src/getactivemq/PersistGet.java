@@ -1,4 +1,3 @@
-package getactivemq;
 /**
  * 获取activemq中死信的值
  */
