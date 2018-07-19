@@ -1,4 +1,4 @@
-package test1.p1;
+package proxy.staticproxy;
 
 public class UserTest {
 	public static void main(String[] args) {

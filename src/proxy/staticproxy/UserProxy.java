@@ -1,6 +1,6 @@
-package test1.p1;
+package proxy.staticproxy;
 
-public class UserProxy implements IUserDao{
+public class UserProxy implements IUserDao {
 
 	 //接收保存目标对象
     private IUserDao target;

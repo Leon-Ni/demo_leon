@@ -1,5 +1,4 @@
-package proxy.staticproxy;
-
+package proxy.jdk1;
 
 public class UserDao implements IUserDao {
 

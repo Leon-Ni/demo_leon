@@ -1,3 +1,4 @@
+package proxy.cglib;
 public class T5 {
 	public static void main(String[] args) {
 		String name = "asdfa.jpg";

@@ -1,5 +1,5 @@
-package test1.p1;
-
+package proxy.staticproxy;
 public interface IUserDao {
 	void test();
 }
+

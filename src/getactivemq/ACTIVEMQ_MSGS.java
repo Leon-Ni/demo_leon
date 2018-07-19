@@ -1,3 +1,4 @@
+package getactivemq;
 import java.sql.Blob;
 
 public class ACTIVEMQ_MSGS {

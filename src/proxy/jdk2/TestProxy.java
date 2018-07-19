@@ -1,3 +1,4 @@
+package proxy.jdk2;
 public class TestProxy {
 	
 	public static void main(String[] args) {
