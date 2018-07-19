@@ -19,12 +19,7 @@ import javax.servlet.http.HttpServletResponse;
 
 public class SessionFilter implements Filter {
 
-<<<<<<< HEAD
 	private static Logger log = Logger.getLogger(SessionFilter.class);
-=======
-	private static Logger log = getLogger(SessionFilter.class);
->>>>>>> 52a890b9b720d38d85f8505c5ce3283551266a64
-
 	private ArrayList<String> allowList = new ArrayList<String>();
 
 	@Override
